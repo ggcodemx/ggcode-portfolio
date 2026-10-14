@@ -132,6 +132,27 @@ export const projects: Record<Locale, { heading: string; intro: string; items: P
         note: "Próximo lanzamiento — imágenes y enlaces se agregarán próximamente",
       },
       {
+        slug: "firma-contable",
+        client: "Website firma contable",
+        location: "Monterrey, México",
+        tags: ["Next.js", "SEO", "Sitio corporativo"],
+        summary: "Sitio corporativo para una firma de asesoría fiscal internacional",
+        problem:
+          "La firma necesitaba un sitio corporativo moderno para comunicar su presencia en distintas industrias y regiones, con secciones de servicios, noticias y desks internacionales, sin depender de una plantilla genérica.",
+        solution:
+          "Diseñé y desarrollé un sitio corporativo con Next.js y Tailwind CSS: mega-menú de servicios e industrias, sección de noticias, página de presencia regional y desks internacionales (Asia, Norteamérica, Latam, Europa), optimizado para SEO y desplegado en Vercel.",
+        stack: ["Next.js", "Tailwind CSS", "SEO", "Vercel"],
+        result: "Resultado: [tráfico orgánico / leads generados]",
+        images: [
+          { src: "/projects/firma-contable/01-hero.png", alt: "Página de inicio con sección de presencia en México" },
+          { src: "/projects/firma-contable/02-noticias.png", alt: "Sección de noticias relevantes" },
+          { src: "/projects/firma-contable/03-mas-sobre.png", alt: "Galería de industrias y servicios" },
+          { src: "/projects/firma-contable/04-servicios-menu.png", alt: "Mega-menú de servicios desplegado" },
+          { src: "/projects/firma-contable/05-servicios-detalle.png", alt: "Página de detalle de un servicio, precios de transferencia" },
+          { src: "/projects/firma-contable/06-desks-internacionales.png", alt: "Sección de desks internacionales" },
+        ],
+      },
+      {
         slug: "sx2-constructora",
         client: "Sx2 Constructora",
         tags: ["Next.js", "MongoDB", "Sistema a la medida"],
@@ -196,6 +217,27 @@ export const projects: Record<Locale, { heading: string; intro: string; items: P
         result: "Result: [search rankings gained / cases managed through the CRM]",
         featured: true,
         note: "Coming soon — images and links will be added shortly",
+      },
+      {
+        slug: "firma-contable",
+        client: "Accounting Firm Website",
+        location: "Monterrey, Mexico",
+        tags: ["Next.js", "SEO", "Corporate site"],
+        summary: "Corporate site for an international tax advisory firm",
+        problem:
+          "The firm needed a modern corporate site to communicate its presence across industries and regions, with services, news and international desks sections, instead of relying on a generic template.",
+        solution:
+          "I designed and built a corporate site with Next.js and Tailwind CSS: a services/industries mega-menu, a news section, a regional presence page and international desks (Asia, North America, LatAm, Europe), optimized for SEO and deployed on Vercel.",
+        stack: ["Next.js", "Tailwind CSS", "SEO", "Vercel"],
+        result: "Result: [organic traffic / leads generated]",
+        images: [
+          { src: "/projects/firma-contable/01-hero.png", alt: "Homepage with Mexico presence section" },
+          { src: "/projects/firma-contable/02-noticias.png", alt: "Relevant news section" },
+          { src: "/projects/firma-contable/03-mas-sobre.png", alt: "Industries and services gallery" },
+          { src: "/projects/firma-contable/04-servicios-menu.png", alt: "Expanded services mega-menu" },
+          { src: "/projects/firma-contable/05-servicios-detalle.png", alt: "Service detail page, transfer pricing" },
+          { src: "/projects/firma-contable/06-desks-internacionales.png", alt: "International desks section" },
+        ],
       },
       {
         slug: "sx2-constructora",
